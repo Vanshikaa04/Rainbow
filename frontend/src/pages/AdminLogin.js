@@ -50,9 +50,7 @@ const AdminLogin = () => {
           <motion.div
             style={{ width:100, height:60, borderRadius:16, margin:'0 auto 14px',  display:'flex', alignItems:'center', justifyContent:'center', fontSize:'1.7rem', fontWeight:900, color:'white', fontFamily:'Playfair Display,serif' }}
           >
-            <img    src="/rainbow.png"
-                alt="Rainbow"
-                style={{ height:80, width:'auto', display:'block' ,marginBottom:"12px"}} />
+            <img  src="/logo.png"  alt="Rainbow" style={{ height:80, width:'auto', display:'block' ,marginBottom:"12px"}} />
           </motion.div>
           <h1 style={{  fontSize:'1.6rem', fontWeight:800, marginBottom:4 , marginTop:"20px"}}>Admin Panel</h1>
           <p style={{ color:'var(--text-secondary)', fontSize:'0.88rem' }}>Sign in to manage Rainbow</p>
