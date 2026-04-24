@@ -110,7 +110,7 @@ export default function Footer() {
                   cursor:'pointer'
                 }}>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d468463.2881482295!2d72.51155331598345!3d23.465173540322173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x395da3db08031b0b%3A0x3ffd3af0dbd39456!2sNyay%20Mandir%20Idar%2C%20Sabarkantha%2C%20SH-10%2C%20Sabarkadha%20Road%2C%20Idar%2C%20Idar%2C%20Gujarat%20383430!3m2!1d23.842477!2d73.02501219999999!4m5!1s0x395e811284b1ec9f%3A0xd7db2f92408b1206!2sRainbow%20marketing%2C%20opp.%20Prem%20Prakash%20Ashram%2C%20Nana%20Chiloda%2C%20Ahmedabad%2C%20Gujarat%20382330!3m2!1d23.0939287!2d72.6583488!5e0!3m2!1sen!2sin!4v1777018570727!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.086378070454!2d72.65577387503006!3d23.093933613661967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e811284b1ec9f%3A0xd7db2f92408b1206!2sRainbow%20marketing!5e0!3m2!1sen!2sin!4v1777018873393!5m2!1sen!2sin"
                     width="100%"
                     height="280"
                     style={{ border:0, pointerEvents:'none' }}
