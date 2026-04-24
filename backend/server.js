@@ -6,7 +6,31 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:3000', credentials: true }));
+
+const allowedOrigins = [
+   "http://localhost:3000",
+   "http://localhost:5173",
+    "https://rainbow-backend-jet.vercel.app/",
+
+
+  ];
+  
+  const corsOptions = {
+    origin: function (origin, callback) {
+      // Allow non-browser tools like Postman
+      if (!origin) return callback(null, true);
+  
+      if (allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        console.error(' CORS blocked origin:', origin);
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    credentials: true, // if using cookies or Authorization headers
+  };
+  
+  app.use(cors(corsOptions));
 app.use(express.json());
 
 // Routes
@@ -21,5 +45,5 @@ mongoose.connect(process.env.MONGO_URI)
   .then(() => console.log('✅ MongoDB Atlas connected'))
   .catch(err => { console.error('❌ MongoDB error:', err.message); process.exit(1); });
 
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`🚀 Server on port ${PORT}`));
+// const PORT = process.env.PORT || 5000;
+// app.listen(PORT, () => console.log(`🚀 Server on port ${PORT}`));
