@@ -385,7 +385,7 @@ export default function AdminDashboard() {
       <div style={{ background:'white', borderBottom:'1px solid var(--border)', position:'sticky', top:0, zIndex:100, boxShadow:'var(--shadow-sm)' }}>
         <div className="container" style={{ display:'flex', alignItems:'center', height:60, gap:10 }}>
           <Link to="/" style={{ display:'flex', alignItems:'center', flexShrink:0 }}>
-            <img src="/logo.png" alt="Rainbow" style={{ height:60, mixBlendMode:'multiply', display:'block' }}/>
+            <img src="/general-logo.png" alt="Rainbow" style={{ height:60, mixBlendMode:'multiply', display:'block' }}/>
           </Link>
           {/* <span style={{ fontSize:'0.78rem', color:'var(--text-muted)', fontWeight:500, letterSpacing:'.04em', textTransform:'uppercase' }}>Admin</span> */}
           <div style={{ flex:1 }}/>

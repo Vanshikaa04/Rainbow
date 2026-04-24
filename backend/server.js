@@ -12,7 +12,10 @@ const allowedOrigins = [
    "http://localhost:5173",
     "https://rainbowbackend.vercel.app/",
   "https://rainbow-amber-ten.vercel.app/",
+  "https://rainbow-amber-ten.vercel.app",
+
 "https://rainbowbackend.vercel.app/api",
+"https://rainbowbackend.vercel.app/api"
   ];
   
   const corsOptions = {
